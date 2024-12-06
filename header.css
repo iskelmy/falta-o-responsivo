@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+header h2{
+    font-size: 25px;
+}
+header ul {
+  display: flex;
+  gap: 40px;
+}
+header a:hover {
+  color: blue;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,20 @@
+h1 {
+  font-size: 65px;
+}
+.quadrado_main {
+  display: grid;
+  gap: 20px;
+  text-align: left;
+  padding: 30px;
+}
+.introducao_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  padding: 40px;
+}
+.img_main {
+  border-radius: 5px;
+  width: 400px;
+  height: -20px;
+}

@@ -1,0 +1,190 @@
+.section_experiencia h2{
+    padding: 90px;
+    word-break: break-all;
+    line-height: 1;
+    font-size: 8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 2ch;
+}
+.section_experiencia h2{
+    color: rgba(0, 0, 0, 0.511);
+}
+.section_experiencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sobre_mim{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: bisque;
+    text-align: left;
+    justify-content: right;
+    align-content: center;
+    justify-items: left;
+    gap: 40px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background: rgba(65, 65, 65, 0.411);
+    position: relative;
+}
+.sobre_mim li{
+    background-color: rgba(255, 255, 255, 0.737);
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.infor_1 h2{
+    margin: 0;
+}
+
+.sobre_mim h3{
+    padding: 10px;
+}
+.para_mim{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.sobre_mim .experiencia_data{
+    position: absolute;
+    left: -104px;
+    top: 30px;
+}
+.sobre_mim::before{
+    content: "";
+    width: calc(5rem/16);
+    height: calc(25rem/16);
+    display: block;
+    background: rgb(111, 158, 41);
+    position: absolute;
+    top: 30px;
+    background-image: linear-gradient(to top, rgb(160, 6, 6), rgb(70, 2, 2));
+}
+span{
+    color: black;
+}
+
+/*formação*/
+
+.section_formacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(25, 25, 25, 0.973);
+}
+.para_mim2{
+    color: #a3a3a384;
+    margin-left: 5px;
+    font-size: 25px;
+    margin-top: 100px;
+}
+.info_Tecnico{
+    display: flex;
+    gap: 15px;
+    border-radius: 18px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.infor_1{
+    position: relative;
+}
+.infor_1::before{
+    content: "";
+    width: calc(5rem/16);
+    height: calc(25rem/16);
+    display: block;
+    background: rgb(111, 158, 41);
+    position: absolute;
+    top: 50px;
+    left: -4px;
+    background: linear-gradient(to top, rgba(255, 0, 179, 0.847), rgb(81, 12, 101) );   
+}
+.section_formacao .informh2{
+    padding: 30px;
+    margin-top: 80px;
+    word-break: break-all;
+    line-height: 1;
+    font-size: 8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 100ch;
+}
+.section_formacao .informh2{
+    color: rgba(0, 0, 0, 0.511);   
+}
+.infor_1 h2{
+}
+.infor_1{
+    padding: 20px;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+}
+
+.infor_1 span{
+    display: inline-block;
+}
+
+.info_Tecnico span{
+   font-size: 17px;
+}
+
+.TecnicoHerculano{
+    color: #A3A3A3;
+}
+.escolaHerculano{
+    color: #A3A3A3;
+    margin-top: 10px;
+}
+
+/*Cursos intensivos*/
+
+.cursos h3{
+    text-transform: uppercase;
+    color: #747373d6;
+    margin-top: 30px;
+}
+.cursos li{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.cursos{
+    margin-right: 30px;
+}
+.CursoH{
+    color: white;
+}
+
+/*idiomas*/
+
+.idiomas h3{
+    text-transform: uppercase;
+    color: #747373d6;
+    margin-top: 20px;
+}
+.idiomas li{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+}
+.Ads_h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; 
+    margin: 0 !important; 
+
+} 
+
+.escolaHerculano{
+    display: inline-block !important;
+    margin: 0;
+}
+
+.infor_1{
+    display: grid !important; 
+    gap: 20px;
+}
